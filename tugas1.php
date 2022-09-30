@@ -10,7 +10,7 @@
         </form>
         <?php
             if (isset($_POST['submit'])) {
-                echo "Selamat Datang, " ."<b>" .$_POST{'nama'} ."</b>";
+                echo "Selamat Datang, " ."<b>" .$_POST['nama'] ."</b>";
             }
         ?>
     </body>
